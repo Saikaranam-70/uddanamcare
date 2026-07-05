@@ -37,7 +37,10 @@ const Contact = () => {
     }
 
     try {
-      const response = await fetch('http://localhost:5000/api/contact', {
+      const API_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+        ? 'http://localhost:5000'
+        : 'https://uddanamcare-1.onrender.com';
+      const response = await fetch(`${API_URL}/api/contact`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
