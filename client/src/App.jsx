@@ -78,9 +78,6 @@ const AppContent = () => {
 
   return (
     <>
-      {/* Hidden iframe for autoplay delegation */}
-      <iframe src="/audio.mpeg" allow="autoplay" style={{ display: 'none' }} id="iframeAudio"></iframe>
-
       {/* Native Browser Autoplay Hint */}
       <audio src="/audio.mpeg" autoPlay className="hidden animate-none" />
 
