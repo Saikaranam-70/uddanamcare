@@ -21,7 +21,13 @@ const Testimonials = () => {
         const API_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
           ? 'http://localhost:5000'
           : 'https://uddanamcare-1.onrender.com';
-        const response = await fetch(`${API_URL}/api/testimonials`);
+        
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 3000);
+
+        const response = await fetch(`${API_URL}/api/testimonials`, { signal: controller.signal });
+        clearTimeout(timeoutId);
+
         if (!response.ok) {
           throw new Error('Failed to fetch testimonials');
         }
@@ -34,7 +40,7 @@ const Testimonials = () => {
           {
             name: 'K. Rama Rao',
             rating: 5,
-            review: 'Dr. Rajesh Kumar is extremely patient and knowledgeable. He diagnosed my cardiovascular issues quickly and guided me through the treatment process. The clinic facilities, especially the ECG and Pharmacy, are excellent and clean.',
+            review: 'Dr. Giribabu is extremely patient and knowledgeable. He diagnosed my cardiovascular issues quickly and guided me through the treatment process. The clinic facilities, especially the ECG and Pharmacy, are excellent and clean.',
             image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150',
           },
           {

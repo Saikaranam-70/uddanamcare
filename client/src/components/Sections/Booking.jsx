@@ -29,7 +29,7 @@ const Booking = ({ selectedDoctorName, onClearSelectedDoctor }) => {
   ];
 
   const doctorsList = [
-    { name: "Dr. B. Rajesh Kumar", dept: "Cardiology" },
+    { name: "Dr. Giribabu", dept: "General Medicine" },
     { name: "Dr. Sunita Patnaik", dept: "Pediatrics" },
     { name: "Dr. Amit Mishra", dept: "Orthopedics" },
     { name: "Dr. L. Gayatri", dept: "Gynecology" }

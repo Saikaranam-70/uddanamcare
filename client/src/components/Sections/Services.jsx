@@ -66,7 +66,7 @@ const Services = () => {
       details: [
         "12-channel digital ECG machines with diagnostic auto-interpretive algorithms.",
         "Experienced technicians to perform cardiac trace checks under minutes.",
-        "Instant diagnostic traces reviewed by Dr. Rajesh Kumar.",
+        "Instant diagnostic traces reviewed by Dr. Giribabu.",
         "Dedicated room for stress testing (TMT) and Holter monitoring."
       ],
       color: "from-rose-500 to-red-500",

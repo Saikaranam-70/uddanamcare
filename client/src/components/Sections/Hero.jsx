@@ -225,7 +225,7 @@ const Hero = () => {
             <div className="relative p-2.5 bg-white/40 dark:bg-slate-900/40 backdrop-blur-md border border-white/20 dark:border-slate-800/50 rounded-3xl overflow-hidden shadow-2xl max-w-lg w-full">
               <img
                 src="/doctor.jpeg"
-                alt="Dr. B. Rajesh Kumar"
+                alt="Dr. Giribabu"
                 className="w-full h-80 md:h-[350px] object-cover object-top rounded-2xl"
                 onError={(e) => {
                   e.target.onerror = null;
@@ -244,7 +244,7 @@ const Hero = () => {
                 </div>
                 <div className="flex flex-col text-left">
                   <span className="text-xs text-slate-400 font-bold uppercase tracking-wider">Chief Consultant</span>
-                  <span className="text-sm font-extrabold text-slate-800 dark:text-white">Dr. B. Rajesh Kumar</span>
+                  <span className="text-sm font-extrabold text-slate-800 dark:text-white">Dr. Giribabu</span>
                 </div>
               </motion.div>
             </div>

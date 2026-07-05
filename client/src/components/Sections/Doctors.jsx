@@ -15,7 +15,13 @@ const Doctors = ({ onSelectDoctor }) => {
         const API_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
           ? 'http://localhost:5000'
           : 'https://uddanamcare-1.onrender.com';
-        const response = await fetch(`${API_URL}/api/doctors`);
+        
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 3000);
+
+        const response = await fetch(`${API_URL}/api/doctors`, { signal: controller.signal });
+        clearTimeout(timeoutId);
+
         if (!response.ok) {
           throw new Error('Failed to fetch doctors');
         }
@@ -28,9 +34,9 @@ const Doctors = ({ onSelectDoctor }) => {
         setDoctors([
           {
             _id: 'static-1',
-            name: 'Dr. B. Rajesh Kumar',
-            specialization: 'General Physician & Cardiologist',
-            qualification: 'M.B.B.S, M.D. (General Medicine), D.Card',
+            name: 'Dr. Giribabu',
+            specialization: 'Senior Nephrologist & Kidney Transplant Specialist',
+            qualification: 'M.B.B.S, M.D. (Gen Med), D.M. (Nephrology)',
             experience: 12,
             languages: ['English', 'Telugu', 'Hindi'],
             availability: {
@@ -42,7 +48,7 @@ const Doctors = ({ onSelectDoctor }) => {
               instagram: 'https://www.instagram.com/uddanamcarehealthclinic',
               facebook: '#',
               linkedin: '#',
-              email: 'rajesh.kumar@uddanamclinic.com',
+              email: 'dr.giribabu@uddanamclinic.com',
             },
           },
           {
