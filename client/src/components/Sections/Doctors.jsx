@@ -34,7 +34,7 @@ const Doctors = ({ onSelectDoctor }) => {
         setDoctors([
           {
             _id: 'static-1',
-            name: 'Dr. Giribabu',
+            name: 'Dr. Gorakala Giribabu',
             specialization: 'Senior Nephrologist & Kidney Transplant Specialist',
             qualification: 'M.B.B.S, M.D. (Gen Med), D.M. (Nephrology)',
             experience: 12,

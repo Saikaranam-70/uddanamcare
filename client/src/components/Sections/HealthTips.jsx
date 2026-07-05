@@ -14,10 +14,10 @@ const HealthTips = () => {
       id: 1,
       title: "Managing Hypertension: Essential Steps for Cardiac Health",
       category: "Cardiology",
-      author: "Dr. Giribabu",
+      author: "Dr. Gorakala Giribabu",
       date: "June 28, 2026",
       desc: "High blood pressure is a silent contributor to cardiovascular complications. Learn key lifestyle changes, diet shifts, and monitoring patterns to stabilize pressure.",
-      longText: "Hypertension (high blood pressure) is often called a silent killer because it rarely shows obvious symptoms until it causes serious vascular damage. Our cardiology expert, Dr. Giribabu, highlights that monitoring blood pressure daily and altering salt intake can decrease cardiovascular risk by 40%.\n\nKey steps to manage hypertension include:\n1. DASH Diet: Focus on potassium-rich fruits, vegetables, whole grains, and lean proteins, while restricting daily sodium to under 2,000 mg.\n2. Cardiovascular Exercise: Aim for 30 minutes of moderate aerobic activity (e.g. brisk walking, cycling) at least 5 days a week.\n3. Weight Management: Losing even 3-5 kg can drop systolic pressure significantly.\n4. Limit Alcohol & Stress: Practice deep breathing, meditation, or yoga, and avoid smoking entirely.",
+      longText: "Hypertension (high blood pressure) is often called a silent killer because it rarely shows obvious symptoms until it causes serious vascular damage. Our cardiology expert, Dr. Gorakala Giribabu, highlights that monitoring blood pressure daily and altering salt intake can decrease cardiovascular risk by 40%.\n\nKey steps to manage hypertension include:\n1. DASH Diet: Focus on potassium-rich fruits, vegetables, whole grains, and lean proteins, while restricting daily sodium to under 2,000 mg.\n2. Cardiovascular Exercise: Aim for 30 minutes of moderate aerobic activity (e.g. brisk walking, cycling) at least 5 days a week.\n3. Weight Management: Losing even 3-5 kg can drop systolic pressure significantly.\n4. Limit Alcohol & Stress: Practice deep breathing, meditation, or yoga, and avoid smoking entirely.",
       image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=600",
       readTime: "5 min read"
     },

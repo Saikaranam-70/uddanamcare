@@ -40,7 +40,7 @@ const Testimonials = () => {
           {
             name: 'K. Rama Rao',
             rating: 5,
-            review: 'Dr. Giribabu is extremely patient and knowledgeable. He diagnosed my cardiovascular issues quickly and guided me through the treatment process. The clinic facilities, especially the ECG and Pharmacy, are excellent and clean.',
+            review: 'Dr. Gorakala Giribabu is extremely patient and knowledgeable. He diagnosed my cardiovascular issues quickly and guided me through the treatment process. The clinic facilities, especially the ECG and Pharmacy, are excellent and clean.',
             image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150',
           },
           {

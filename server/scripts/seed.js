@@ -7,7 +7,7 @@ dotenv.config();
 
 const doctors = [
   {
-    name: 'Dr. Giribabu',
+    name: 'Dr. Gorakala Giribabu',
     specialization: 'Senior Nephrologist & Kidney Transplant Specialist',
     qualification: 'M.B.B.S, M.D. (Gen Med), D.M. (Nephrology)',
     experience: 12,
@@ -84,7 +84,7 @@ const testimonials = [
   {
     name: 'K. Rama Rao',
     rating: 5,
-    review: 'Dr. Giribabu is extremely patient and knowledgeable. He diagnosed my cardiovascular issues quickly and guided me through the treatment process. The clinic facilities, especially the ECG and Pharmacy, are excellent and clean.',
+    review: 'Dr. Gorakala Giribabu is extremely patient and knowledgeable. He diagnosed my cardiovascular issues quickly and guided me through the treatment process. The clinic facilities, especially the ECG and Pharmacy, are excellent and clean.',
     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150',
   },
   {

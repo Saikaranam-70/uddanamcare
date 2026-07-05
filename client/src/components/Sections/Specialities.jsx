@@ -61,7 +61,7 @@ const Specialities = () => {
       icon: <FaHeart size={24} />,
       titleKey: 'specCardio',
       desc: "Specialized diagnostics and therapy for cardiovascular anomalies, hypertension, and coronary artery conditions.",
-      longDesc: "Your heart health is our absolute priority. The Cardiology unit combines the expertise of Dr. Giribabu with advanced ECG profiling to identify vascular blocks, arrhythmic beats, and cardiac risk metrics early, protecting your heart from future complications.",
+      longDesc: "Your heart health is our absolute priority. The Cardiology unit combines the expertise of Dr. Gorakala Giribabu with advanced ECG profiling to identify vascular blocks, arrhythmic beats, and cardiac risk metrics early, protecting your heart from future complications.",
       image: "https://images.unsplash.com/photo-1507556640981-b9a47b4d1580?auto=format&fit=crop&q=80&w=600",
       treatments: ["ECG Interpretation", "Cardiac Risk Profiling", "Arrhythmia Control", "Lipid Management"],
       details: [
