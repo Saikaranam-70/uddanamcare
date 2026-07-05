@@ -52,15 +52,19 @@ const AppContent = () => {
 
     const removeListeners = () => {
       window.removeEventListener('click', handleInteraction);
-      window.removeEventListener('touchstart', handleInteraction);
+      window.removeEventListener('touchend', handleInteraction);
+      window.removeEventListener('pointerup', handleInteraction);
       document.removeEventListener('click', handleInteraction);
-      document.removeEventListener('touchstart', handleInteraction);
+      document.removeEventListener('touchend', handleInteraction);
+      document.removeEventListener('pointerup', handleInteraction);
     };
 
     window.addEventListener('click', handleInteraction);
-    window.addEventListener('touchstart', handleInteraction);
+    window.addEventListener('touchend', handleInteraction);
+    window.addEventListener('pointerup', handleInteraction);
     document.addEventListener('click', handleInteraction);
-    document.addEventListener('touchstart', handleInteraction);
+    document.addEventListener('touchend', handleInteraction);
+    document.addEventListener('pointerup', handleInteraction);
 
     return () => {
       clearTimeout(timer);
@@ -74,6 +78,9 @@ const AppContent = () => {
 
   return (
     <>
+      {/* Hidden iframe for autoplay delegation */}
+      <iframe src="/audio.mpeg" allow="autoplay" style={{ display: 'none' }} id="iframeAudio"></iframe>
+
       {/* Native Browser Autoplay Hint */}
       <audio src="/audio.mpeg" autoPlay className="hidden animate-none" />
 
