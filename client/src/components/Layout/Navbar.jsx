@@ -72,18 +72,39 @@ const Navbar = ({ activeSection, onNavigate }) => {
     }
   };
 
+  const announcements = {
+    en: "🏥 Uddanam Care Health Clinic is now Uddanam Care Hospital! Upgraded In-Patient Wards & 24/7 Emergency Care. 📞 Call: +91 8008397870 / 7993488293 | ✉️ uddanamcare@gmail.com",
+    te: "🏥 ఉద్దానం కేర్ హెల్త్ క్లినిక్ ఇప్పుడు ఉద్దానం కేర్ హాస్పిటల్ గా మార్చబడింది! అత్యాధునిక సదుపాయాలు మరియు 24/7 అత్యవసర వైద్యం. 📞 కాల్: +91 8008397870 / 7993488293",
+    hi: "🏥 उद्दानम केयर क्लिनिक अब उद्दानम केयर हॉस्पिटल है! उन्नत इन-पेशेंट वार्ड और 24/7 आपातकालीन सेवा। 📞 कॉल करें: +91 8008397870 / 7993488293",
+    or: "🏥 ଉଦ୍ଦାନମ କେୟାର କ୍ଲିନିକ ବର୍ତ୍ତମାନ ଉଦ୍ଦାନମ କେୟାର ହସ୍ପିଟାଲ୍! ଉନ୍ନତ ଇନ୍-ପେସେଣ୍ଟ ୱାର୍ଡ ଏବଂ ୨୪/୭ ଜରୁରୀ ସେବା । 📞 କଲ୍: +91 8008397870 / 7993488293"
+  };
+
   return (
     <>
+      {/* Top Announcement Bar */}
+      <div className="fixed top-0 left-0 right-0 h-8 bg-gradient-to-r from-brand-700 via-slate-900 to-accent-700 text-white z-50 flex items-center overflow-hidden px-4 text-[11px] sm:text-xs font-semibold select-none border-b border-white/10 shadow-sm">
+        <div className="flex items-center space-x-2 max-w-7xl mx-auto w-full justify-center">
+          <span className="flex-shrink-0 inline-flex items-center justify-center px-1.5 py-0.5 rounded bg-brand-500/30 text-brand-200 font-bold border border-brand-500/40 text-[9px] tracking-wider uppercase animate-pulse">
+            UPGRADE
+          </span>
+          <div className="overflow-hidden relative flex-1 text-center">
+            <span className="animate-marquee whitespace-nowrap inline-block text-slate-100">
+              {announcements[language] || announcements['en']}
+            </span>
+          </div>
+        </div>
+      </div>
+
       {/* Scroll Progress Bar */}
       <div 
-        className="fixed top-0 left-0 h-1 bg-gradient-to-r from-brand-500 to-accent-500 z-50 transition-all duration-100" 
+        className="fixed top-8 left-0 h-1 bg-gradient-to-r from-brand-500 to-accent-500 z-50 transition-all duration-100" 
         style={{ width: `${scrollProgress}%` }}
       />
 
-      <nav className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
+      <nav className={`fixed left-0 right-0 z-40 transition-all duration-300 ${
         isScrolled 
-          ? 'glass-navbar py-2 shadow-md' 
-          : 'bg-transparent py-3.5'
+          ? 'top-0 glass-navbar py-2 shadow-md' 
+          : 'top-8 bg-transparent py-3.5'
       }`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
@@ -91,7 +112,7 @@ const Navbar = ({ activeSection, onNavigate }) => {
             <div className="flex items-center cursor-pointer" onClick={() => scrollToSection('home')}>
               <img 
                 src="/logo.PNG" 
-                alt="Uddanam Care Clinic Logo" 
+                alt="Uddanam Care Hospital Logo" 
                 className={`w-auto rounded-lg shadow-sm mr-2.5 bg-white p-1 transition-all duration-300 ${
                   isScrolled ? 'h-10 sm:h-11' : 'h-13 sm:h-14'
                 }`}
@@ -105,7 +126,7 @@ const Navbar = ({ activeSection, onNavigate }) => {
                   UDDANAM CARE
                 </span>
                 <span className="text-[9px] tracking-widest text-slate-500 dark:text-slate-400 font-sans uppercase mt-0.5">
-                  Health Clinic
+                  Hospital
                 </span>
               </div>
             </div>

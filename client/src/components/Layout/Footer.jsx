@@ -59,7 +59,7 @@ const Footer = () => {
             <div className="flex items-center space-x-3 cursor-pointer" onClick={() => scrollToSection('home')}>
               <img 
                 src="/logo.PNG" 
-                alt="Uddanam Care Clinic Logo" 
+                alt="Uddanam Care Hospital Logo" 
                 className="h-10 w-auto rounded-md bg-white p-1"
                 onError={(e) => {
                   e.target.onerror = null;
@@ -68,7 +68,7 @@ const Footer = () => {
               />
               <div className="flex flex-col">
                 <span className="text-lg font-bold text-white tracking-tight">UDDANAM CARE</span>
-                <span className="text-[10px] tracking-widest text-slate-400 uppercase">Health Clinic</span>
+                <span className="text-[10px] tracking-widest text-slate-400 uppercase">Hospital</span>
               </div>
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">
@@ -180,20 +180,20 @@ const Footer = () => {
           <div className="flex items-start space-x-3">
             <FaPhone className="text-brand-500 mt-1 flex-shrink-0" size={16} />
             <div className="flex flex-col">
-              <span>+91 94943 32569</span>
-              <span>+91 89196 48439</span>
+              <span>+91 8008397870</span>
+              <span>+91 7993488293</span>
             </div>
           </div>
           <div className="flex items-start space-x-3">
             <FaEnvelope className="text-brand-500 mt-1 flex-shrink-0" size={16} />
-            <span>info@uddanamcarehealthclinic.com</span>
+            <span>uddanamcare@gmail.com</span>
           </div>
         </div>
 
         {/* Copyright */}
         <div className="border-t border-slate-800 pt-8 text-center text-xs text-slate-500 flex flex-col md:flex-row items-center justify-between gap-4">
           <span>
-            © {new Date().getFullYear()} Uddanam Care Health Clinic. {t('footerRights')}
+            © {new Date().getFullYear()} Uddanam Care Hospital. {t('footerRights')}
           </span>
           <div className="flex space-x-4">
             <a href="#" className="hover:underline">Privacy Policy</a>

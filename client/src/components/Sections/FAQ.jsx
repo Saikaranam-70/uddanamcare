@@ -9,12 +9,12 @@ const FAQ = () => {
 
   const faqs = [
     {
-      q: "What are the clinic's working hours?",
-      a: "Uddanam Care Health Clinic is open Monday to Saturday from 9:00 AM to 1:00 PM and from 4:00 PM to 8:00 PM. Our emergency casualty department operates 24/7."
+      q: "What are the hospital's working hours?",
+      a: "Uddanam Care Hospital is open Monday to Saturday from 9:00 AM to 1:00 PM and from 4:00 PM to 8:00 PM. Our emergency casualty department operates 24/7."
     },
     {
       q: "How can I schedule an appointment?",
-      a: "You can easily schedule an appointment by filling out the online 'Book Appointment' form on our website, calling our support line at +91 94943 32569, or walking into our reception desk."
+      a: "You can easily schedule an appointment by filling out the online 'Book Appointment' form on our website, calling our support line at +91 8008397870, or walking into our reception desk."
     },
     {
       q: "Do you offer cashless health insurance support?",

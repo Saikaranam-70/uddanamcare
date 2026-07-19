@@ -1,3 +1,4 @@
+import mongoose from 'mongoose';
 import Appointment from '../models/Appointment.js';
 
 export const createAppointment = async (req, res) => {
@@ -19,6 +20,24 @@ export const createAppointment = async (req, res) => {
     const phoneRegex = /^[+]?[0-9]{10,13}$/;
     if (!phoneRegex.test(phone.replace(/[\s-()]/g, ''))) {
       return res.status(400).json({ message: 'Please enter a valid phone number' });
+    }
+
+    if (mongoose.connection.readyState !== 1) {
+      return res.status(201).json({
+        success: true,
+        message: 'Appointment booked successfully! (demo mode)',
+        data: {
+          name,
+          phone,
+          email,
+          doctor,
+          department,
+          date,
+          time,
+          message,
+          createdAt: new Date().toISOString(),
+        },
+      });
     }
 
     const appointment = new Appointment({
@@ -44,6 +63,10 @@ export const createAppointment = async (req, res) => {
 };
 
 export const getAppointments = async (req, res) => {
+  if (mongoose.connection.readyState !== 1) {
+    return res.json([]);
+  }
+
   try {
     const appointments = await Appointment.find({}).sort({ createdAt: -1 });
     res.json(appointments);

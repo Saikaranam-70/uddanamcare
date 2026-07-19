@@ -106,7 +106,7 @@ const About = () => {
             className="flex flex-col space-y-6 text-left"
           >
             <h3 className="text-lg font-bold text-slate-800 dark:text-white font-sans">
-              Welcome to Uddanam Care Health Clinic
+              Welcome to Uddanam Care Hospital
             </h3>
             <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
               {t('aboutIntro')}

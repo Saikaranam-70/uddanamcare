@@ -18,13 +18,13 @@ const FloatingWidgets = () => {
     { 
       icon: <FaWhatsapp size={18} />, 
       color: 'bg-[#25D366] hover:scale-110 shadow-[0_4px_12px_rgba(37,211,102,0.4)]', 
-      url: 'https://wa.me/919494332569', 
+      url: 'https://wa.me/918008397870', 
       label: 'WhatsApp' 
     },
     { 
       icon: <FaPhoneAlt size={16} />, 
       color: 'bg-blue-600 hover:scale-110 shadow-[0_4px_12px_rgba(37,99,235,0.4)]', 
-      url: 'tel:+919494332569', 
+      url: 'tel:+918008397870', 
       label: 'Call Us' 
     },
     { 
@@ -48,7 +48,7 @@ const FloatingWidgets = () => {
     { 
       icon: <FaEnvelope size={16} />, 
       color: 'bg-[#EA4335] hover:scale-110 shadow-[0_4px_12px_rgba(234,67,53,0.4)]', 
-      url: 'mailto:info@uddanamcarehealthclinic.com', 
+      url: 'mailto:uddanamcare@gmail.com', 
       label: 'Email' 
     },
   ];

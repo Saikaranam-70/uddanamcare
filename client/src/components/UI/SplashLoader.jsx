@@ -62,14 +62,13 @@ const SplashLoader = ({ isVisible }) => {
               />
             </svg>
 
-            {/* Clinic Name */}
             <motion.h1
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.6 }}
               className="mt-6 font-sans text-2xl font-bold tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-brand-300 to-accent-300"
             >
-              UDDANAM CARE
+              UDDANAM CARE HOSPITAL
             </motion.h1>
             <motion.p
               initial={{ opacity: 0 }}
@@ -77,7 +76,7 @@ const SplashLoader = ({ isVisible }) => {
               transition={{ delay: 0.8, duration: 0.6 }}
               className="mt-1 text-[10px] tracking-widest uppercase text-slate-400 font-sans"
             >
-              Health Clinic & Diagnostics
+              Hospital & Diagnostics
             </motion.p>
           </div>
         </motion.div>

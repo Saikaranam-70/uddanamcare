@@ -141,7 +141,7 @@ const Contact = () => {
                 <div>
                   <h4 className="text-sm font-bold text-slate-800 dark:text-white font-sans">{t('contactPhone')}</h4>
                   <p className="text-xs text-slate-555 dark:text-slate-400 mt-1 font-semibold">
-                    +91 94943 32569<br />+91 89196 48439
+                    +91 8008397870<br />+91 7993488293
                   </p>
                 </div>
               </div>
@@ -154,7 +154,7 @@ const Contact = () => {
                 <div>
                   <h4 className="text-sm font-bold text-slate-800 dark:text-white font-sans">{t('contactEmail')}</h4>
                   <p className="text-xs text-slate-555 dark:text-slate-400 mt-1">
-                    info@uddanamcarehealthclinic.com
+                    uddanamcare@gmail.com
                   </p>
                 </div>
               </div>
@@ -244,7 +244,7 @@ const Contact = () => {
                         value={formData.phone}
                         onChange={handleChange}
                         required
-                        placeholder="e.g. +91 94943 32569"
+                        placeholder="e.g. +91 8008397870"
                         className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:border-brand-500 text-slate-850 dark:text-white transition-colors"
                       />
                     </div>

@@ -18,7 +18,7 @@ const translations = {
 
     // Hero Section
     heroTitle: "Premium Healthcare for You and Your Family",
-    heroSubtitle: "Experience world-class medical expertise, advanced diagnostics, and compassionate patient care at Uddanam Care Health Clinic.",
+    heroSubtitle: "Experience world-class medical expertise, advanced diagnostics, and compassionate patient care at Uddanam Care Hospital.",
     heroCTA: "Book Appointment",
     heroContactCTA: "Contact Us",
     statPatients: "Patients Served",
@@ -27,9 +27,9 @@ const translations = {
     statYears: "Years Experience",
 
     // About Section
-    aboutTitle: "About Our Clinic",
+    aboutTitle: "About Our Hospital",
     aboutSubtitle: "Committed to providing high-quality, compassionate healthcare in Sompeta and surrounding areas.",
-    aboutIntro: "Uddanam Care Health Clinic is a state-of-the-art medical facility dedicated to delivering comprehensive healthcare services under one roof. Our team of experienced specialists is driven by medical excellence and patient well-being.",
+    aboutIntro: "Uddanam Care Hospital is a state-of-the-art medical facility dedicated to delivering comprehensive healthcare services under one roof. Our team of experienced specialists is driven by medical excellence and patient well-being.",
     aboutMission: "Our Mission",
     aboutMissionText: "To provide accessible, premium, and trustworthy clinical and diagnostic services to our community using advanced technology.",
     aboutVision: "Our Vision",
@@ -79,7 +79,7 @@ const translations = {
 
     // Gallery
     galleryTitle: "Our Gallery",
-    gallerySubtitle: "A glimpse into our clinic, advanced departments, and patient-friendly environment.",
+    gallerySubtitle: "A glimpse into our hospital, advanced departments, and patient-friendly environment.",
 
     // Booking Section
     bookingTitle: "Book An Appointment",
@@ -113,7 +113,7 @@ const translations = {
     contactHours: "Working Hours",
     contactHoursWeek: "Mon - Sat: 9:00 AM - 1:00 PM & 4:00 PM - 8:00 PM",
     contactHoursSun: "Sunday: Emergency Casualty Only",
-    contactAddress: "Clinic Address",
+    contactAddress: "Hospital Address",
     contactPhone: "Call Us",
     contactEmail: "Email Us",
     contactFormTitle: "Send a Message",
@@ -128,7 +128,7 @@ const translations = {
     footerLinks: "Quick Links",
     footerContact: "Get in Touch",
     footerNewsletter: "Newsletter",
-    footerNewsletterSub: "Subscribe to receive health tips and clinic updates.",
+    footerNewsletterSub: "Subscribe to receive health tips and hospital updates.",
     footerNewsletterPlaceholder: "Enter your email",
     footerSubscribe: "Subscribe",
     footerSubscribed: "Subscribed!",
@@ -149,7 +149,7 @@ const translations = {
 
     // Hero Section
     heroTitle: "మీకు మరియు మీ కుటుంబానికి ప్రీమియం వైద్య సంరక్షణ",
-    heroSubtitle: "ఉద్దానం కేర్ హెల్త్ క్లినిక్ లో ప్రపంచ స్థాయి వైద్య నైపుణ్యం, అత్యాధునిక రోగ నిర్ధారణలు మరియు ప్రేమపూర్వక సంరక్షణను అనుభవించండి.",
+    heroSubtitle: "ఉద్దానం కేర్ హాస్పిటల్ లో ప్రపంచ స్థాయి వైద్య నైపుణ్యం, అత్యాధునిక రోగ నిర్ధారణలు మరియు ప్రేమపూర్వక సంరక్షణను అనుభవించండి.",
     heroCTA: "అపాయింట్‌మెంట్ బుక్ చేయండి",
     heroContactCTA: "మమ్మల్ని సంప్రదించండి",
     statPatients: "సేవలు పొందిన రోగులు",
@@ -158,9 +158,9 @@ const translations = {
     statYears: "సంవత్సరాల అనుభవం",
 
     // About Section
-    aboutTitle: "మా క్లినిక్ గురించి",
+    aboutTitle: "మా హాస్పిటల్ గురించి",
     aboutSubtitle: "సోంపేట మరియు పరిసర ప్రాంతాలలో అత్యుత్తమమైన, నమ్మకమైన వైద్య సేవలు అందించడమే మా లక్ష్యం.",
-    aboutIntro: "ఉద్దానం కేర్ హెల్త్ క్లినిక్ అనేది ఒకే చోట అన్ని రకాల వైద్య సేవలు అందించే ఒక అత్యాధునిక వైద్య కేంద్రం. మా నిపుణులైన వైద్య బృందం మీ ఆరోగ్య రక్షణకు నిరంతరం కట్టుబడి ఉంటుంది.",
+    aboutIntro: "ఉద్దానం కేర్ హాస్పిటల్ అనేది ఒకే చోట అన్ని రకాల వైద్య సేవలు అందించే ఒక అత్యాధునిక వైద్య కేంద్రం. మా నిపుణులైన వైద్య బృందం మీ ఆరోగ్య రక్షణకు నిరంతరం కట్టుబడి ఉంటుంది.",
     aboutMission: "మా ధ్యేయం",
     aboutMissionText: "అత్యాధునిక సాంకేతికతను ఉపయోగించి మా ప్రజలకు సులభంగా అందుబాటులో ఉండేలా నాణ్యమైన చికిత్స, మరియు ల్యాబ్ సేవలను అందించడం.",
     aboutVision: "మా విజన్",
@@ -210,7 +210,7 @@ const translations = {
 
     // Gallery
     galleryTitle: "మా ఫోటో గ్యాలరీ",
-    gallerySubtitle: "మా క్లినిక్ పరిసరాలు, విభాగాలు మరియు వైద్య సదుపాయాల చిత్రాలు.",
+    gallerySubtitle: "మా హాస్పిటల్ పరిసరాలు, విభాగాలు మరియు వైద్య సదుపాయాల చిత్రాలు.",
 
     // Booking Section
     bookingTitle: "అపాయింట్‌మెంట్ తీసుకోండి",
@@ -244,7 +244,7 @@ const translations = {
     contactHours: "పనివేళలు",
     contactHoursWeek: "సోమ - శని: ఉదయం 9:00 - మధ్యాహ్నం 1:00 & సాయంత్రం 4:00 - రాత్రి 8:00",
     contactHoursSun: "ఆదివారం: అత్యవసర కేసులు మాత్రమే",
-    contactAddress: "క్లినిక్ చిరునామా",
+    contactAddress: "హాస్పిటల్ చిరునామా",
     contactPhone: "ఫోన్ చేయండి",
     contactEmail: "ఈమెయిల్ చేయండి",
     contactFormTitle: "సందేశాన్ని పంపండి",
@@ -280,7 +280,7 @@ const translations = {
 
     // Hero Section
     heroTitle: "आपके और आपके परिवार के लिए प्रीमियम स्वास्थ्य सेवा",
-    heroSubtitle: "उद्दानम केयर हेल्थ क्लिनिक में विश्व स्तरीय चिकित्सा विशेषज्ञता, उन्नत निदान और दयालु रोगी देखभाल का अनुभव करें।",
+    heroSubtitle: "उद्दानम केयर हॉस्पिटल में विश्व स्तरीय चिकित्सा विशेषज्ञता, उन्नत निदान और दयालु रोगी देखभाल का अनुभव करें।",
     heroCTA: "अपॉइंटमेंट बुक करें",
     heroContactCTA: "संपर्क करें",
     statPatients: "रोगी सेवा",
@@ -289,9 +289,9 @@ const translations = {
     statYears: "वर्षों का अनुभव",
 
     // About Section
-    aboutTitle: "हमारे क्लिनिक के बारे में",
+    aboutTitle: "हमारे हॉस्पिटल के बारे में",
     aboutSubtitle: "सोमपेटा और आसपास के क्षेत्रों में उच्च गुणवत्ता वाली, दयालु स्वास्थ्य सेवा प्रदान करने के लिए प्रतिबद्ध।",
-    aboutIntro: "उद्दानम केयर हेल्थ क्लिनिक एक अत्याधुनिक चिकित्सा सुविधा है जो एक ही छत के नीचे व्यापक स्वास्थ्य सेवाएं प्रदान करने के लिए समर्पित है।",
+    aboutIntro: "उद्दानम केयर हॉस्पिटल एक अत्याधुनिक चिकित्सा सुविधा है जो एक ही छत के नीचे व्यापक स्वास्थ्य सेवाएं प्रदान करने के लिए समर्पित है।",
     aboutMission: "हमारा उद्देश्य",
     aboutMissionText: "उन्नत तकनीक का उपयोग करके हमारे समुदाय को सुलभ, प्रीमियम और विश्वसनीय नैदानिक ​​और लैब सेवाएं प्रदान करना।",
     aboutVision: "हमारी दृष्टि",
@@ -341,7 +341,7 @@ const translations = {
 
     // Gallery
     galleryTitle: "हमारी गैलरी",
-    gallerySubtitle: "हमारे क्लिनिक, उन्नत विभागों और रोगी-अनुकूल वातावरण की एक झलक।",
+    gallerySubtitle: "हमारे हॉस्पिटल, उन्नत विभागों और रोगी-अनुकूल वातावरण की एक झलक।",
 
     // Booking Section
     bookingTitle: "अपॉइंटमेंट बुक करें",
@@ -375,7 +375,7 @@ const translations = {
     contactHours: "कार्य के घंटे",
     contactHoursWeek: "सोम - शनि: सुबह 9:00 - दोपहर 1:00 और शाम 4:00 - रात 8:00",
     contactHoursSun: "रविवार: केवल आपातकालीन सेवाएं",
-    contactAddress: "क्लिनिक का पता",
+    contactAddress: "हॉस्पिटल का पता",
     contactPhone: "हमें कॉल करें",
     contactEmail: "हमें ईमेल करें",
     contactFormTitle: "संदेश भेजें",
@@ -390,7 +390,7 @@ const translations = {
     footerLinks: "त्वरित लिंक्स",
     footerContact: "संपर्क में रहें",
     footerNewsletter: "न्यूज़लेटर",
-    footerNewsletterSub: "स्वास्थ्य टिप्स और क्लिनिक अपडेट प्राप्त करने के लिए सदस्यता लें।",
+    footerNewsletterSub: "स्वास्थ्य टिप्स और हॉस्पिटल अपडेट प्राप्त करने के लिए सदस्यता लें।",
     footerNewsletterPlaceholder: "अपना ईमेल दर्ज करें",
     footerSubscribe: "सदस्यता लें",
     footerSubscribed: "सदस्यता ली गई!",
@@ -411,7 +411,7 @@ const translations = {
 
     // Hero Section
     heroTitle: "ଆପଣଙ୍କ ଏବଂ ଆପଣଙ୍କ ପରିବାର ପାଇଁ ପ୍ରିମିୟମ ସ୍ୱାସ୍ଥ୍ୟ ସେବା",
-    heroSubtitle: "ଉଦ୍ଦାନମ କେୟାର ହେଲଥ କ୍ଲିନିକରେ ବିଶ୍ୱସ୍ତରୀୟ ଚିକିତ୍ସା, ଅତ୍ୟାଧୁନିକ ରୋଗ ନିରୂପଣ ଏବଂ ସହାନୁଭୂତିପୂର୍ଣ୍ଣ ରୋଗୀ ସେବାର ଅନୁଭବ କରନ୍ତୁ ।",
+    heroSubtitle: "ଉଦ୍ଦାନମ କେୟାର ହସ୍ପିଟାଲରେ ବିଶ୍ୱସ୍ତରୀୟ ଚିକିତ୍ସା, ଅତ୍ୟାଧୁନିକ ରୋଗ ନିରୂପଣ ଏବଂ ସହାନୁଭୂତିପୂର୍ଣ୍ଣ ରୋଗୀ ସେବାର ଅନୁଭବ କରନ୍ତୁ ।",
     heroCTA: "ଅପଏଣ୍ଟମେଣ୍ଟ ବୁକ୍ କରନ୍ତୁ",
     heroContactCTA: "ଯୋଗାଯୋଗ କରନ୍ତୁ",
     statPatients: "ରୋଗୀ ସେବା",
@@ -420,9 +420,9 @@ const translations = {
     statYears: "ବର୍ଷର ଅନୁଭବ",
 
     // About Section
-    aboutTitle: "ଆମ କ୍ଲିନିକ ବିଷୟରେ",
+    aboutTitle: "ଆମ ହସ୍ପିଟାଲ୍ ବିଷୟରେ",
     aboutSubtitle: "ସୋମପେଟା ଏବଂ ଆଖପାଖ ଅଞ୍ଚଳରେ ଉଚ୍ଚ ଗୁଣବତ୍ତା ସମ୍ପନ୍ନ ସ୍ୱାସ୍ଥ୍ୟ ସେବା ଯୋଗାଇବା ପାଇଁ ପ୍ରତିଶ୍ରୁତିବଦ୍ଧ ।",
-    aboutIntro: "ଉଦ୍ଦାନମ କେୟାର ହେଲଥ କ୍ଲିନିକ ହେଉଛି ଏକ ଅତ୍ୟାଧୁନିକ ଚିକିତ୍ସା କେନ୍ଦ୍ର ଯେଉଁଠାରେ ଏକାଠି ସମସ୍ତ ସ୍ୱାସ୍ଥ୍ୟ ସେବା ଉପଲବ୍ଧ ଅଟେ । ଆମର ଅଭିଜ୍ଞ ଡାକ୍ତରୀ ଦଳ ରୋଗୀଙ୍କ ସୁସ୍ଥତା ପାଇଁ ସଦା ସର୍ବଦା ନିୟୋଜିତ ।",
+    aboutIntro: "ଉଦ୍ଦାନମ କେୟାର ହସ୍ପିଟାଲ୍ ହେଉଛି ଏକ ଅତ୍ୟାଧୁନିକ ଚିକିତ୍ସା କେନ୍ଦ୍ର ଯେଉଁଠାରେ ଏକାଠି ସମସ୍ତ ସ୍ୱାସ୍ଥ୍ୟ ସେବା ଉପଲବ୍ଧ ଅଟେ । ଆମର ଅଭିଜ୍ଞ ଡାକ୍ତରୀ ଦଳ ରୋଗୀଙ୍କ ସୁସ୍ଥତା ପାଇଁ ସଦା ସର୍ବଦା ନିୟୋଜିତ ।",
     aboutMission: "ଆମର ଲକ୍ଷ୍ୟ",
     aboutMissionText: "ଅତ୍ୟାଧୁନିକ ବୈଷୟିକ ଜ୍ଞାନକୌଶଳ ବ୍ୟବହାର କରି ଆମ ସମାଜକୁ ସୁଲଭ ଏବଂ ବିଶ୍ୱାସନୀୟ ଚିକିତ୍ସା ତଥା ଲ୍ୟାବ୍ ସେବା ଯୋଗାଇ ଦେବା ।",
     aboutVision: "ଆମର ଦୂରଦୃଷ୍ଟି",
@@ -472,7 +472,7 @@ const translations = {
 
     // Gallery
     galleryTitle: "ଆମର ଗ୍ୟାଲେରୀ",
-    gallerySubtitle: "ଆମ କ୍ଲିନିକ, ଆଧୁନିକ ବିଭାଗ ଏବଂ ରୋଗୀ ଅନୁକୂଳ ପରିବେଶର କିଛି ଝଲକ ।",
+    gallerySubtitle: "ଆମ ହସ୍ପିଟାଲ୍, ଆଧୁନିକ ବିଭାଗ ଏବଂ ରୋଗୀ ଅନୁକୂଳ ପରିବେଶର କିଛି ଝଲକ ।",
 
     // Booking Section
     bookingTitle: "ଅପଏଣ୍ଟମେଣ୍ଟ ବୁକ୍ କରନ୍ତୁ",
@@ -506,7 +506,7 @@ const translations = {
     contactHours: "କାର୍ଯ୍ୟ ସମୟ",
     contactHoursWeek: "ସୋମ - ଶନି: ସକାଳ ୯:୦୦ - ଦିପହର ୧: ୦୦ ଏବଂ ସନ୍ଧ୍ୟା ୪: ୦୦ - ରାତି ୮: ୦୦",
     contactHoursSun: "ରବିବାର: କେବଳ ଜରୁରୀକାଳୀନ ସେବା",
-    contactAddress: "କ୍ଲିନିକ ଠିକଣା",
+    contactAddress: "ହସ୍ପିଟାଲ୍ ଠିକଣା",
     contactPhone: "ଫୋନ୍ କରନ୍ତୁ",
     contactEmail: "ଇମେଲ୍ କରନ୍ତୁ",
     contactFormTitle: "ସନ୍ଦେଶ ପଠାନ୍ତୁ",

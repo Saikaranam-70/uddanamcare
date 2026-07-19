@@ -132,7 +132,7 @@ const Hero = () => {
             >
               <FaHeartbeat className="text-brand-500 animate-pulse" size={14} />
               <span className="text-xs font-bold tracking-wider text-brand-700 dark:text-brand-400 uppercase font-sans">
-                Uddanam Care Health Clinic
+                Uddanam Care Hospital
               </span>
             </motion.div>
 
