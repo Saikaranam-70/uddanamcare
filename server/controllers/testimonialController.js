@@ -4,14 +4,14 @@ import Testimonial from '../models/Testimonial.js';
 const fallbackTestimonials = [
   {
     _id: 'demo-testimonial-1',
-    name: 'Madhavi',
-    feedback: 'Excellent care and very friendly staff. The appointment process was smooth and quick.',
+    name: 'Bendi Apparao (Sompeta)',
+    feedback: 'Dr. Gorakala Giribabu is a lifesaver! I was suffering from chronic kidney issues. The treatment and dialysis facilities here at Uddanam Care Hospital are top-notch and highly affordable. We saved so much money and travel time compared to city hospitals.',
     rating: 5,
   },
   {
     _id: 'demo-testimonial-2',
-    name: 'Ramesh',
-    feedback: 'Clean facility and professional doctors. I felt comfortable throughout my visit.',
+    name: 'Savara Kamamma (Mandasa)',
+    feedback: 'We admitted my grandmother in the in-patient ward. The rooms are clean, nursing care is prompt 24/7, and the overall tariff is very reasonable. Under one roof, we got lab tests, digital X-Ray, and generic pharmacy medicines. Uddanam Care Hospital is a blessing for our local community.',
     rating: 5,
   },
 ];

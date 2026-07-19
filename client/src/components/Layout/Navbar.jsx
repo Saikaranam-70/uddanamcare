@@ -45,6 +45,7 @@ const Navbar = ({ activeSection, onNavigate }) => {
   const navItems = [
     { id: 'home', labelKey: 'navHome' },
     { id: 'about', labelKey: 'navAbout' },
+    { id: 'value', labelKey: 'navValue' },
     { id: 'services', labelKey: 'navServices' },
     { id: 'specialities', labelKey: 'navSpecialities' },
     { id: 'doctors', labelKey: 'navDoctors' },

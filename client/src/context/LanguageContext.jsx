@@ -15,6 +15,7 @@ const translations = {
     navHealthTips: "Health Tips",
     navContact: "Contact",
     navBookNow: "Book Appointment",
+    navValue: "Why Us",
 
     // Hero Section
     heroTitle: "Premium Healthcare for You and Your Family",
@@ -146,6 +147,7 @@ const translations = {
     navHealthTips: "ఆరోగ్య చిట్కాలు",
     navContact: "సంప్రదించండి",
     navBookNow: "అపాయింట్‌మెంట్ బుకింగ్",
+    navValue: "ఎందుకు మేము",
 
     // Hero Section
     heroTitle: "మీకు మరియు మీ కుటుంబానికి ప్రీమియం వైద్య సంరక్షణ",
@@ -277,6 +279,7 @@ const translations = {
     navHealthTips: "स्वास्थ्य टिप्स",
     navContact: "संपर्क करें",
     navBookNow: "अपॉइंटमेंट लें",
+    navValue: "हम क्यों",
 
     // Hero Section
     heroTitle: "आपके और आपके परिवार के लिए प्रीमियम स्वास्थ्य सेवा",
@@ -408,6 +411,7 @@ const translations = {
     navHealthTips: "ସ୍ୱାସ୍ଥ୍ୟ ଟିପ୍ସ",
     navContact: "ଯୋଗାଯୋଗ",
     navBookNow: "ଅପଏଣ୍ଟମେଣ୍ଟ ବୁକିଂ",
+    navValue: "ଆମେ କାହିଁକି",
 
     // Hero Section
     heroTitle: "ଆପଣଙ୍କ ଏବଂ ଆପଣଙ୍କ ପରିବାର ପାଇଁ ପ୍ରିମିୟମ ସ୍ୱାସ୍ଥ୍ୟ ସେବା",

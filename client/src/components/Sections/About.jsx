@@ -86,8 +86,8 @@ const About = () => {
             <div className="absolute -inset-1 rounded-2xl bg-gradient-to-tr from-brand-500 to-accent-500 opacity-15 blur-lg" />
             <div className="relative p-2 bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 rounded-3xl overflow-hidden shadow-xl">
               <img
-                src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=600"
-                alt="Uddanam Clinic Internal Reception"
+                src="/newImages/gallery_new_1.jpeg"
+                alt="Uddanam Hospital Reception"
                 className="w-full h-72 sm:h-80 object-cover rounded-xl"
                 onError={(e) => {
                   e.target.onerror = null;

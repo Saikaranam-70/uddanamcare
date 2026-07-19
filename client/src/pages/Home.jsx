@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Hero from '../components/Sections/Hero';
 import About from '../components/Sections/About';
+import ValueForMoney from '../components/Sections/ValueForMoney';
 import Services from '../components/Sections/Services';
 import Specialities from '../components/Sections/Specialities';
 import Doctors from '../components/Sections/Doctors';
@@ -17,6 +18,7 @@ const Home = ({ activeSection, setActiveSection, selectedDoctorName, onClearSele
     const sections = [
       'home',
       'about',
+      'value',
       'services',
       'specialities',
       'doctors',
@@ -52,6 +54,7 @@ const Home = ({ activeSection, setActiveSection, selectedDoctorName, onClearSele
     <div className="relative">
       <Hero />
       <About />
+      <ValueForMoney />
       <Services />
       <Specialities />
       <Doctors onSelectDoctor={(name) => {

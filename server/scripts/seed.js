@@ -82,27 +82,27 @@ const doctors = [
 
 const testimonials = [
   {
-    name: 'K. Rama Rao',
+    name: 'Bendi Apparao (Sompeta)',
     rating: 5,
-    review: 'Dr. Gorakala Giribabu is extremely patient and knowledgeable. He diagnosed my cardiovascular issues quickly and guided me through the treatment process. The clinic facilities, especially the ECG and Pharmacy, are excellent and clean.',
+    review: 'Dr. Gorakala Giribabu is a lifesaver! I was suffering from chronic kidney issues. The treatment and dialysis facilities here at Uddanam Care Hospital are top-notch and highly affordable. We saved so much money and travel time compared to city hospitals.',
     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150',
   },
   {
-    name: 'Savitri Devi',
+    name: 'Savara Kamamma (Mandasa)',
     rating: 5,
-    review: 'The best clinic in Sompeta. Having diagnostic labs, X-ray, and Pharmacy under one roof saves so much time. The staff is polite, and the doctor is very reassuring. Strongly recommended!',
+    review: 'We admitted my grandmother in the in-patient ward. The rooms are clean, nursing care is prompt 24/7, and the overall tariff is very reasonable. Under one roof, we got lab tests, digital X-Ray, and generic pharmacy medicines. Uddanam Care Hospital is a blessing for our local community.',
     image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=150',
   },
   {
-    name: 'P. Manoj Kumar',
-    rating: 4,
-    review: 'Very professional doctors. I brought my son here for pediatric consultation with Dr. Sunita Patnaik. She was great with him, spoke Odia/Telugu fluently which made him comfortable, and the medicine was effective.',
+    name: 'Chintada Venkata Ramana (Palasa)',
+    rating: 5,
+    review: 'Last month, we had an emergency and rushed my brother to their 24/7 casualty unit. The emergency response was immediate and the doctor was very professional. Very transparent billing and excellent value for money.',
     image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150',
   },
   {
-    name: 'Minati Behera',
+    name: 'Gedela Suryanarayana (Kaviti)',
     rating: 5,
-    review: 'Clean and modern clinic. We received very fast reports from the laboratory. The casualty service was prompt when my father had an emergency last month. Cashless insurance facility was very helpful.',
+    review: 'Having advanced diagnostic labs, digital X-ray, and senior specialists in Sompeta is an absolute game-changer. We no longer have to spend time and money travelling to Visakhapatnam or Bhubaneswar. Highly recommend Uddanam Care Hospital!',
     image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=150',
   },
 ];

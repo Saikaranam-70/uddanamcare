@@ -10,7 +10,6 @@ const Gallery = () => {
 
   const photos = [
     { src: '/data1.jpeg', alt: 'Hospital Entrance & Front Exterior', category: 'facilities', span: 'col-span-1 md:col-span-2' },
-    { src: '/data2.jpeg', alt: 'Main Reception & Waiting Lobby', category: 'facilities', span: 'col-span-1' },
     { src: '/data3.jpeg', alt: 'Patient Consultation & Checkup Room', category: 'services', span: 'col-span-1' },
     { src: '/data4.jpeg', alt: 'Advanced Clinical Diagnostic Lab', category: 'diagnostic', span: 'col-span-1 md:col-span-2' },
     { src: '/newImages/gallery_new_1.jpeg', alt: 'Advanced In-Patient Ward Rooms', category: 'wards', span: 'col-span-1' },
